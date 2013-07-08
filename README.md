@@ -1,4 +1,2 @@
 pgd
 ===
-
-phonegap-demo
