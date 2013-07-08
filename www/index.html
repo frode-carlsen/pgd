@@ -4,20 +4,17 @@
 <meta charset="utf-8" />
 <meta name="format-detection" content="telephone=no" />
 <meta name="viewport"
-	content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+	content="user-scalable=yes, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
 <link rel="stylesheet" type="text/css" href="css/index.css" />
-<title>Hello World</title>
+<link rel="stylesheet" href="js/lib/leaflet/leaflet.css" />
+<script type="text/javascript" src="js/lib/leaflet/leaflet.js"></script>
+<script type="text/javascript" src="phonegap.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<title>PSD</title>
 </head>
 <body>
-	<div class="app">
-		<h1>PhoneGap</h1>
-		<div id="deviceready" class="blink">
-			<p class="event listening">Connecting to Device</p>
-			<p class="event received">Device is Ready</p>
-		</div>
-	</div>
-	<script type="text/javascript" src="phonegap.js"></script>
-	<script type="text/javascript" src="js/index.js"></script>
+	<div id="map"></div>
 	<script type="text/javascript">
 		app.initialize();
 	</script>
