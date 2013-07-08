@@ -35,7 +35,7 @@ var app = {
 
     	// add a marker in the given location, attach some popup content to it and open the popup
     	L.marker([51.5, -0.09]).addTo(map)
-    	    .bindPopup('A pretty CSS3 popup. <br> Easily customizable.')
+    	    .bindPopup('just a CSS3 popup.')
     	    .openPopup();
     	
     	
