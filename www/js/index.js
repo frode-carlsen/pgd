@@ -19,13 +19,7 @@ var app = {
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-    	switch (id) {
-		case "deviceready":
-			app.initMap();
-			break;
-		default:
-			break;
-		}
+    	app.initMap();
     },
     
     // setup map
